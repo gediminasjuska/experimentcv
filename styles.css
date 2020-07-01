@@ -5,6 +5,9 @@ a{
     text-decoration: none;
     color: black;
 }
+a:active{
+    transform: scale(0.95);
+}
 i{
     color: red;
 }
@@ -37,6 +40,13 @@ i{
     border: 1px solid;
     border-radius: 30px;
     padding: 9px 30px;
+    cursor: pointer;
+}
+button:active{
+    transform: scale(0.95);
+}
+button:focus{
+    outline: none;
 }
 .big-hr{
     max-width: 1300px;
@@ -72,7 +82,64 @@ i{
     max-width: 1100px;
 }
 .work-experience{
-    max-width: 1300px;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.work-experience-header{
+    text-align: center;
+}
+.companies{
+    height: 555px;
+    display: flex;
+    justify-content: space-between;
+}
+.companies-left{
+    border-right: 1px solid;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right-top-all{
+    display: flex;
+    margin-bottom: 40px;
+}
+.line-div-all{
+    height: 210px;
+    width: 20%;
+}
+.line-div{
+    height: 50%;
+    border-bottom: 1px solid;
+    width: auto;
+}
+.circle{
+    width: 45px;
+    height: 45px;
+    border: 1px solid;
+    border-radius: 68%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 82.5px;
+    background-color: white;
+}
+.companies-right{
+    border: 1px solid;
+    width: 50%;
+    border-left: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.company-name{
+    width: 80%;
+    height: 210px;
+    border: 1px solid;
 }
 .portfolio{
     max-width: 1100px;
@@ -158,6 +225,7 @@ i{
     border: 1px solid;
     border-radius: 30px;
     padding: 9px 30px;
+    cursor: pointer;
 }
 .footer-bottom{
     margin: auto;
