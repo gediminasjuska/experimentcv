@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+i{
+    color: red;
+}
+.main{
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
+.nav{
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    height: 5em;
+}
+.logo{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading-button{
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 9px 30px;
+}
+.big-hr{
+    max-width: 1300px;
+    height: 225px;
+    background-color: darkgrey;
+    margin: auto;
+}
+.photo-circle{
+    width: 185px;
+    height: 185px;
+    background-image: url(images/profile-photo.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 165px;
+    box-shadow: 0px 0px 66px #5b5b5b;
+}
+.personal-details-top{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 45px;
+}
+.personal-details-bottom{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    max-width: 1100px;
+}
+.work-experience{
+    max-width: 1300px;
+}
+.portfolio{
+    max-width: 1100px;
+    height: 670px;
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.portfolio-header{
+    text-align: center;
+}
+.portfolio-list{
+    display: flex;
+    flex-flow: wrap;
+    max-width: 1100px;
+    height: 613px;
+    justify-content: center;
+}
+.portfolio-projects{
+    background-color: green;
+    width: 220px;
+    height: 245px;
+    border: 2px solid;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.project-upload-date{
+    padding: 10px;
+    padding-bottom: 0;
+    margin: 0;
+    color: white;
+    font-size: 13px;
+}
+.project-link{
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+}
+.contact-me{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#contact-me-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contact-me{
+    display: flex;
+    align-items: center;
+    width: 18%;
+    margin: auto;
+    justify-content: flex-start;
+}
+#contact-me-logo{
+    margin-right: 30px;
+}
+.footer{
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+.footer-logo{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-navbar{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+.footer-button{
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 9px 30px;
+}
+.footer-bottom{
+    margin: auto;
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+}
+.footer-bottom-left{
+    display: flex;
+    width: 16%;
+    justify-content: space-between;
+}
+
+
+
+
